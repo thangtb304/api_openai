@@ -1,0 +1,37 @@
+{
+  "id": "chatcmpl-5h8f7bgkEhtC6l7FwAKrKqYZ7j",
+  "object": "chat.completion",
+  "created": 1684012345,
+  "model": "gpt-4",
+  "usage": {
+    "prompt_tokens": 1220,
+    "completion_tokens": 350,
+    "total_tokens": 1570
+  },
+  "choices": [
+    {
+      "message": {
+        "role": "assistant",
+        "content": "The candidate, Nguyễn Thị Nguyệt Hà, has a strong background in design and graphic arts, particularly in branding, communication materials, and social media content creation. She has extensive experience with design software, including Microsoft Office, Photoshop, Illustrator, and Corel. She has worked as a part-time designer and a full-time designer at various companies, contributing to projects involving graphic design and customer interaction. Her soft skills include presentation, problem-solving, and communication, which are valuable for her future job recommendations."
+      },
+      "function_call": {
+        "name": "AnalyzeCV",
+        "arguments": {
+          "candidate_name": "Nguyễn Thị Nguyệt Hà",
+          "phone_number": "0969 470 095",
+          "email": "nguyet.ha.dhmtcn@gmail.com",
+          "degree": ["Cao đẳng sư phạm Hà Tây - Hệ trung cấp (2008-2010)", "ĐH Mỹ Thuật công nghiệp - Khoa tạo dáng công nghiệp (2010-2015)"],
+          "experience": ["Part-time designer at Minh Thành Printing (2014-2015)", "Full-time designer at Kinh Bắc Printing Company (2015-2017)", "Teacher at Erato School of Music & Performing Arts (Current)"],
+          "technical_skill": ["Microsoft Office", "Photoshop", "Illustrator", "Corel"],
+          "responsibility": ["Designing branding and communication materials for clients", "Creating content for websites and social media"],
+          "certificate": ["Graphic Design Certificate", "Social Media Advertising Certificate"],
+          "soft_skill": ["Presentation", "Problem-solving", "Communication"],
+          "comment": "Nguyễn Thị Nguyệt Hà is a creative and skilled designer with strong communication skills and significant experience in graphic design and content creation.",
+          "job_recommended": ["Graphic Designer", "Branding Specialist", "Content Creator"],
+          "office": 3,
+          "sql": 0
+        }
+      }
+    }
+  ]
+}
